@@ -1,4 +1,4 @@
 ---
-layout: news
-titel: The Hindusthan Time
+titel:  The Hindusthan Time
 ---
+dsfnv.vc,s.,c.
