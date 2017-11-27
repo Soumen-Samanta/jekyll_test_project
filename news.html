@@ -1,11 +1,13 @@
 ---
 layout: default
 ---
-
 <h1>Times Of India</h1>
 <h2>Today's News</h2>
 <ul>
-    {% for news site.posts % }
-    <li><a href=""></a></li>
-    {% endfor %}
+    
+    {% for news in site.posts %}
+    <li>
+        <a href="news.titel"></a>
+    </li>
+{% endfor %}
 </ul>
