@@ -1,0 +1,7 @@
+ <nav class="nav {{include.navclass}}">
+        <ul>
+            <li><a href="{{site.baseurl}}/" class="{% if page.url =='/index.html' %} current {% endif%}">Home</a></li>
+              <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %} current {% endif %}">News</a></li>
+              <li><a href="{{site.baseurl}}/vedio/" >Vedio</a></li>
+        </ul>
+    </nav>

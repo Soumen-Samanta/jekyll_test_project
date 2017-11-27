@@ -1,0 +1,18 @@
+html{
+    border: width border-style color;
+    font: normal 100%/1.9 Georgia;
+}
+.current{
+    background-color: #000fff;
+    color: #fff
+}
+.nav-top{
+   color: #ff0aaa;
+font-size: 20.%;
+    
+}
+.nav-bottom{
+color: #ff0aaa;
+font-size: 20.%;
+background-color: #ffbbaa
+}
