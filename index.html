@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
-    <p> Well come to Jekyll</p>
-    <p>How you are working</p>
-  
+    <h1> Well come to Jekyll</h1>
+    
+  <ul>
+    
+    {% for home in site.categories.home %}
+    <li>
+      <a href="">{{home.titel}}</a>
+        <p>{{home.content}}</p>
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,14 @@
+---
+layout: news
+---
+<h1>Recently Discoverd</h1>
+
+<ul>
+    
+    {% for news in site.categories.news %}
+    <li>
+      <a href="">  {{news.titel}}</a>
+        <p>{{news.content}}</p>
+    </li>
+{% endfor %}
+</ul>

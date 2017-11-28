@@ -1,7 +1,8 @@
  <nav class="nav {{include.navclass}}">
         <ul>
             <li><a href="{{site.baseurl}}/" class="{% if page.url =='/index.html' %} current {% endif%}">Home</a></li>
-              <li><a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %} current {% endif %}">News</a></li>
-              <li><a href="{{site.baseurl}}/vedio/" >Vedio</a></li>
+              <li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains'news' or page.url contains 'recently_discoverd'  %} current {% endif %}">News</a></li>
+              <li><a href="{{site.baseurl}}/vedio.html" class="{% if page.url contains'vedio' %} current {% endif %}">Vedio</a></li>
+              <li><a href="{{site.baseurl}}/planets/" class="{% if page.url contains'planets' %} current {% endif %}">planets</a></li>
         </ul>
     </nav>

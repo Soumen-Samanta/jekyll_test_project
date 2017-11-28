@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>Vedio</h1>
+
+<ul>
+    
+    {% for vedio in site.data.vedios %}
+    <li>
+      <a href="#">  {{vedio.titel}}</a>
+        <p>{{vedio.content | markdownify }}</p>
+    </li>
+{% endfor %}
+</ul>
